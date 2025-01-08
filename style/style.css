@@ -11,6 +11,10 @@
     color: #474747;
 }
 
+.dark-01 {
+    color: #181818;
+}
+
 .btn-primary {
     background-color: #FD6E0A;
     color: white;
@@ -21,6 +25,13 @@
     border-radius: 5px;
 }
 
+/* top header stule */
+.top-header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
 /* Nav style */
 nav {
     display: flex;
@@ -28,7 +39,6 @@ nav {
     align-content: center;
     flex-direction: row;
     align-items: center;
-
 }
 
 .nav-tittle {
@@ -53,5 +63,39 @@ nav ul li {
 nav li a {
     text-decoration: none;
     font-size: 20px;
+}
 
+/* top section style */
+.top-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 38px 0px 200px;
+
+}
+
+.top-section .sub-tittle {
+    font-size: 45px;
+    font-weight: 580;
+
+
+}
+
+.top-content {
+    width: 600px;
+
+}
+
+.top-section .tittle {
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.top-section .description {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.top-banner-img {
+    width: 580px;
 }
